@@ -2,7 +2,7 @@
 
 This document provides realistic examples for the change-count based commit standard.
 
-## Level 1 (1 个改动)
+## Level 1 (1 logical change)
 
 Level 1 commits contain only a header. Use this for single logical changes.
 
@@ -28,9 +28,9 @@ chore(deps): update express to version 4.18.2
 
 ---
 
-## Level 2 (≥2 个改动)
+## Level 2 (≥2 logical changes)
 
-Level 2 commits include a header and a bulleted list of specific changes. Each bullet point should be under 50 characters.
+Level 2 commits include a header and a bulleted list of specific changes, one bullet per change point.
 
 ### feat
 ```
@@ -111,11 +111,19 @@ Multiple file changes that belong to the same logical theme (e.g., "Deployment G
 docs(guides): update deployment steps for all environments
 ```
 
-### Mixed Logical Changes (Level 2)
-When combining a fix with a documentation update or multiple unrelated tasks.
+### Mixed Logical Changes (split by function)
+An unrelated fix and a documentation update are two commits, not one.
 ```
-fix(ui): fix button alignment and update docs
+fix(ui): correct button centering in submit row
+```
+```
+docs(ui): document the new submit button props
+```
 
-- Correct flexbox centering in component
-- Update component docs with new props
+A single file holding several unrelated edits is the exception — commit the file whole and describe each change point.
+```
+refactor(ui): clean up submit button component
+
+- Fix flexbox centering in the submit row
+- Document the new props in the component header
 ```

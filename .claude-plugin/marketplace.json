@@ -1,0 +1,8 @@
+{
+  "name": "umichan0621",
+  "owner": { "name": "umichan0621" },
+  "description": "Personal skill collection for coding agents",
+  "plugins": [
+    { "name": "agent-skills", "source": "./", "description": "Personal skill collection for coding agents" }
+  ]
+}

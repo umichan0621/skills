@@ -1,0 +1,26 @@
+{
+  "name": "agent-skills",
+  "version": "1.0.0",
+  "description": "Personal skill collection for coding agents (Claude Code, OpenCode, …)",
+  "type": "module",
+  "main": "./.opencode/plugins/index.js",
+  "files": [
+    ".opencode/",
+    ".claude-plugin/",
+    "skills/"
+  ],
+  "keywords": [
+    "agent-skills",
+    "claude-code-plugin",
+    "opencode-plugin",
+    "skills"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umichan0621/skills.git"
+  },
+  "scripts": {
+    "test": "node smoke-test.mjs"
+  }
+}
