@@ -50,6 +50,7 @@ harnesses share.
 
 | Skill | What it does |
 | ----- | ------------ |
+| `find-skills` | Discover and install skills from the open skills ecosystem |
 | `frontend-design` | Production-grade frontend UI with distinctive design |
 | `git-commit` | Commit messages to this repo's standard |
 | `git-merge` | Ultra-compact MR/PR documents from diff analysis |
