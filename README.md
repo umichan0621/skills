@@ -53,7 +53,8 @@ harnesses share.
 | `find-skills` | Discover and install skills from the open skills ecosystem |
 | `frontend-design` | Production-grade frontend UI with distinctive design |
 | `git-commit` | Commit messages to this repo's standard |
-| `git-merge` | Ultra-compact MR/PR documents from diff analysis |
+| `git-release` | Cut Git releases: version resolution, bilingual notes, tag push, GitLab/Gitea Release |
+| `gitlab-mr` | Draft GitLab MRs from the actual branch diff via the REST API |
 | `meow-notify` | Task-completion push notifications via MeoW |
 | `skill-creator` | Create and improve skills |
 
