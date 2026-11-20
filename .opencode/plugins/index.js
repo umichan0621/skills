@@ -1,4 +1,4 @@
-// agent-skills — OpenCode V2 plugin that registers every skill
+// umichan-skills — OpenCode V2 plugin that registers every skill
 // packaged under skills/<id>/SKILL.md via ctx.skill.transform.
 // skills/ is the single source of truth for every harness: Claude Code
 // discovers it natively from .claude-plugin/, OpenCode loads this module
@@ -51,7 +51,7 @@ function skills() {
 }
 
 export default {
-  id: "agent-skills",
+  id: "umichan-skills",
   async setup(ctx) {
     await ctx.skill.transform((editor) => {
       for (const skill of skills()) {

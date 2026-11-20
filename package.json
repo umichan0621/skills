@@ -1,5 +1,5 @@
 {
-  "name": "agent-skills",
+  "name": "umichan-skills",
   "version": "1.0.0",
   "description": "Personal skill collection for coding agents (Claude Code, OpenCode, …)",
   "type": "module",
@@ -10,7 +10,7 @@
     "skills/"
   ],
   "keywords": [
-    "agent-skills",
+    "umichan-skills",
     "claude-code-plugin",
     "opencode-plugin",
     "skills"

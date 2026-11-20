@@ -1,5 +1,5 @@
 {
-  "name": "agent-skills",
+  "name": "umichan-skills",
   "version": "1.0.0",
   "description": "Personal skill collection for coding agents: find-skills, frontend-design, git-commit, git-release, gitlab-mr, humanize-chinese, meow-notify, skill-creator",
   "author": { "name": "umichan0621" }

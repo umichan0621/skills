@@ -10,7 +10,7 @@ harness: Claude Code, OpenCode, or any skill-capable agent.
 ```
 
 ```
-/plugin install agent-skills@umichan0621
+/plugin install umichan-skills@umichan0621
 ```
 
 Claude Code discovers `skills/*/SKILL.md` natively from the plugin root
