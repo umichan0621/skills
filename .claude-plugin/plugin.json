@@ -1,6 +1,6 @@
 {
   "name": "agent-skills",
   "version": "1.0.0",
-  "description": "Personal skill collection for coding agents: find-skills, frontend-design, git-commit, git-merge, meow-notify, skill-creator",
+  "description": "Personal skill collection for coding agents: find-skills, frontend-design, git-commit, git-release, gitlab-mr, humanize-chinese, meow-notify, skill-creator",
   "author": { "name": "umichan0621" }
 }
