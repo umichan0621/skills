@@ -1,6 +1,6 @@
 ---
 name: debug
-description: "Use for any bug, test failure, build failure, unexpected behavior, or performance problem, before proposing or writing any fix (triggers: debug, 调试, 排查, bug, 报错, fails, broken, crash, why does, root cause, 根因). Especially when the fix seems obvious or time pressure is high."
+description: "Use for any bug, test failure, build failure, unexpected behavior, or performance problem, before proposing or writing any fix — including when the fix seems obvious, the bug seems small, or time pressure is high; those are the cases where guessing costs most (triggers: debug, 调试, 排查, bug, 报错, 又坏了, 改了没生效, fails, broken, crash, why does, root cause, 根因)."
 ---
 
 # Debug
@@ -52,8 +52,10 @@ path, not one guard per caller.
 
 ## Phase 4: Verify and Check Siblings
 
-Prove the original symptom gone with a run you watched. Then ask what
-else shares the broken assumption — the same bug usually has siblings.
+Prove the original symptom gone with a run you watched — under the
+`verify` skill's gate: fresh evidence, not memory of having fixed it.
+Then ask what else shares the broken assumption — the same bug usually
+has siblings.
 
 ## Rationalizations
 

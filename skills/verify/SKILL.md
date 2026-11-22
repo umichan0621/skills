@@ -1,6 +1,6 @@
 ---
 name: verify
-description: "Use immediately before claiming any work is complete, fixed, or passing — before committing, pushing, or declaring done (triggers: verify, 验证, done, 完成, tests pass, fixed, should work now). Evidence before claims, always."
+description: "Use before every claim that work is complete, fixed, or passing — before committing, pushing, declaring done, or moving to the next task — even for one-line changes, which fail open exactly like big ones (triggers: verify, 验证, done, 完成, 搞定, fixed, tests pass, should work now, 应该好了). Evidence before claims, always."
 ---
 
 # Verify

@@ -1,6 +1,6 @@
 ---
 name: plan
-description: "Write an implementation plan from an approved design or spec for a multi-step task, before touching code, then execute it task by task (triggers: plan, 计划, 实施计划, break this down, task list, implementation plan). Use after design approval; not for one-step changes."
+description: "Write an implementation plan from an approved design or spec, then execute it task by task. Use whenever a change needs more than about three steps or touches more than one module, before touching code (triggers: plan, 计划, 实施计划, 拆解, break this down, task list, implementation plan, 怎么实现). Not for one-step changes."
 ---
 
 # Plan
@@ -63,3 +63,6 @@ Only four things stop you: an irreversible or destructive operation; a
 security-sensitive action; a side effect outside the workspace that
 norms say to ask about first (a merge, a push to a shared branch, a
 publish); and a plan so broken that every path forward is a guess.
+
+Completion claims — per task and for the plan as a whole — go through
+the `verify` skill: fresh evidence before you say something works.

@@ -1,6 +1,6 @@
 ---
 name: design
-description: "Run a design conversation before building anything non-trivial: a new feature, module, behavior change, or refactor whose shape is not fully specified. Use when the request leaves meaningful decisions open (triggers: design, brainstorm, 方案, 设计, 新功能, 技术方案, before you build, how should we). Do not use for self-sufficient requests where every detail is already in the ask — just do those and say what you did."
+description: "Run a design conversation before building anything whose shape is not fully pinned down: a new feature, module, integration, behavior change, or refactor. Use it even when the request sounds small ('加个缓存', '加个字段', '接一下登录') if the how is open — small-sounding requests are exactly where the agent guesses wrong. Triggers: design, brainstorm, 方案, 设计, 新功能, 技术方案, 怎么做, how should we, before you build. Skip only when every detail needed is already in the request: do that and say what you did."
 ---
 
 # Design
@@ -63,7 +63,8 @@ After the approach is picked, write the design, sized to the work:
   data flow, failure modes, and migration path.
 
 Get their approval of the doc before planning or implementation. Their
-approval covers the approach and the design together.
+approval covers the approach and the design together. After approval,
+load the `plan` skill to write the implementation plan.
 
 **Spike to feel things out.** When a quick throwaway build is the
 cheapest way to learn what they want or whether something works, offer
